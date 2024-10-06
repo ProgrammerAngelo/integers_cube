@@ -1,7 +1,7 @@
 #for the size of array
 print("Cubes of integers")
 print("Hello User!\n")
-size = float(input("Enter the size of the array: "))
+size = int(input("Enter the size of the array: "))
 
 #for inputing the integers of the array
 elements = list(map(float, input("Enter the elements: ").split()))
